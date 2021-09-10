@@ -217,7 +217,7 @@ let background = document.querySelector('.fullscreen__bg');
 window.addEventListener('scroll', bgMove)
 
 function bgMove() {
-	background.style.top = - window.pageYOffset/3 + 'px';
+	background.style.top = - window.pageYOffset/2 + 'px';
 }
 
 // Слайдер
@@ -236,38 +236,7 @@ $(document).ready(function(){
 	})
 });
 
-// Прокрутка при клике в меню
-// const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
-// if (menuLinks.length > 0) {
-// 	menuLinks.forEach(menuLink => {
-// 		menuLink.addEventListener("click", onMenuLinkClick);
-// 	});
-	
-// 	function onMenuLinkClick(e) {
-// 		const menuLink = e.target;
-// 		if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
-// 			const gotoBlock = document.querySelector(menuLink.dataset.goto);
-// 			const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - 3 - document.querySelector('.header').offsetHeight;
 
-// 			// if (menuActive.classList.contains('_active')) {
-// 			// 	document.body.classList.remove('_lock');
-// 			// 	menuActive.classList.remove('_active');
-// 			// 	menuActiveMenu.classList.remove('_active');
-// 			// }
-// 			// if (menuActive.classList.contains('icon__body__active')) {
-// 			// 	menuActive.classList.remove('menu__body__active"');
-// 			// 	menuActiveMenu.classList.remove('menu__body__active"');
-// 			// }
-			
-// 			window.scrollTo({
-// 				top: gotoBlockValue,
-// 				behavior: "smooth"
-// 			});
-// 			e.preventDefault();
-// 		}
-// 	}
-// }
-// "use strict"
 
 const isMobile = {
 	Android: function () {
