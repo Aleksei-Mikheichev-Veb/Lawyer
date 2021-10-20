@@ -20,10 +20,10 @@
 	$mail->SMTPAuth = true;
 	$mail->SMTPDebug = 0;
 	 
-	$mail->Host = '...';
+	$mail->Host = '...///';
 	$mail->Port = 465;
-	$mail->Username = '...';
-	$mail->Password = '...';
+	$mail->Username = '...///';
+	$mail->Password = '...///';
 
 	
 	//От кого письмо
