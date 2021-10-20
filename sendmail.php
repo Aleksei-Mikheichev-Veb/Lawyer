@@ -20,14 +20,14 @@
 	$mail->SMTPAuth = true;
 	$mail->SMTPDebug = 0;
 	 
-	$mail->Host = 'smtp.beget.com';
+	$mail->Host = '...';
 	$mail->Port = 465;
-	$mail->Username = 'mail@advocatorlov.ru';
-	$mail->Password = 'Orlov09101989';
+	$mail->Username = '...';
+	$mail->Password = '...';
 
 	
 	//От кого письмо
-	$mail->setFrom('rorsheg4@advocatorlov.ru');
+	$mail->setFrom('...');
 	//Кому отправить
 	$mail->addAddress('gluk-90@list.ru');
 	//Тема письма
